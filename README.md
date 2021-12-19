@@ -1,2 +1,3 @@
 # WORDS-COMBINATION
-didn't build any user inteface for this application.
+I have not created any user interface for this program yet.
+
