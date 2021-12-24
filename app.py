@@ -38,7 +38,6 @@ def set_sqlite_pragma(dbapi_connection, connection_record):
 admin=Admin(app,name='My App',template_mode='bootstrap3')
 engine=create_engine('sqlite:///combs.db')
 Session(app)
-moment=Moment(app)
 
 
 
