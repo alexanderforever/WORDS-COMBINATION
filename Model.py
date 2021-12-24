@@ -22,22 +22,9 @@ class Ztable(UserMixin, db.Model):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+db.create_all()
 Ztable.remove()
-
 Ztable.create()
-
 for item in ['a','b','#']:
     b=Ztable(item)
     db.session.add(b)
