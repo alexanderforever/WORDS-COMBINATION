@@ -1,10 +1,6 @@
 from Model import Ztable as Z
 from app import *
 
-@login_manager.user_loader
-def load_user(user_id):
-    return A.query.get(user_id)
-
 B=[a for a in Z.query.all()]
 def comb():
     while True:
