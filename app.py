@@ -14,7 +14,7 @@ from flask_admin import Admin
 from flask_admin.contrib.sqla import ModelView
 from flask_moment import Moment 
 
-app=Flask(__name__, template_folder='static')
+app=Flask(__name__)
 app.config['SECRET_KEY']='secrettttttttt'
 app.config['WTF_CSRF_SECRET_KEY']='wtffdjfk'
 
