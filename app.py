@@ -12,9 +12,7 @@ from flask_admin.contrib.sqla import ModelView
 
 app=Flask(__name__)
 app.config['SECRET_KEY']='secrettttttttt'
-app.config['WTF_CSRF_SECRET_KEY']='wtffdjfk'
 db = SQLAlchemy(app)
-csrf=CSRFProtect(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///combs.db'
 app.config['SESSION_TYPE'] = 'sqlalchemy'
 app.config['SESSION_SQLALCHEMY_TABLE'] = 'sessions'
