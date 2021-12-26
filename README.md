@@ -1,3 +1,5 @@
 # WORDS-COMBINATION
-Backend.
+Example:
+  ['a','b']->'aa','bb','ab','ba'
+
 
