@@ -25,7 +25,7 @@ class Ztable(UserMixin, db.Model):
 db.create_all()
 Ztable.remove()
 Ztable.create()
-for item in ['a','b','#']:
+for item in ["a","2"]:
     b=Ztable(item)
     db.session.add(b)
     db.session.commit()
