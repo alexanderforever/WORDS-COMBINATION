@@ -5,7 +5,7 @@ from app import *
 def comb(passwordsizeEstimate):
     B=[a for a in Z.query.all()]
 
-    passwordminlen=0 #a=ehsan,b=2 =>min length=6 if we get ab is like ehsan2
+    passwordminlen=0 #a=eeeee,b=2 =>min length=6 consider ab
     for item in Z.query.all():
         passwordminlen+=len(item.word)
     
